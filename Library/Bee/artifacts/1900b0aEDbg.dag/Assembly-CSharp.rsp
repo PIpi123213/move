@@ -350,8 +350,13 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/audio.cs"
+"Assets/audioawake.cs"
+"Assets/collision.cs"
+"Assets/ExitZone.cs"
 "Assets/fpsinput.cs"
 "Assets/NewBehaviourScript.cs"
+"Assets/soundmanage.cs"
 -langversion:9.0
 
 /deterministic

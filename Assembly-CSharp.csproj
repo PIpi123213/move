@@ -58,6 +58,11 @@
   <ItemGroup>
     <Compile Include="Assets\fpsinput.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\collision.cs" />
+    <Compile Include="Assets\ExitZone.cs" />
+    <Compile Include="Assets\audio.cs" />
+    <Compile Include="Assets\audioawake.cs" />
+    <Compile Include="Assets\soundmanage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -14,6 +14,8 @@ public class ExitZone : MonoBehaviour
           
             // 加载指定的场景
             SceneManager.LoadScene(sceneToLoad);
+            GameManager.countScene++;
+
         }
     }
 }

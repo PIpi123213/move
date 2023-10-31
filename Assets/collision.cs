@@ -22,7 +22,7 @@ public class collision : MonoBehaviour
         {
             
        
-            if (soundmanage.isGround)
+            if (soundeffect.isGround)
             {
                 audioSource.clip = collisionSound;
 
@@ -32,7 +32,7 @@ public class collision : MonoBehaviour
             else
             {
                 Debug.Log("1");
-                soundmanage.isGround = true;
+                soundeffect.isGround = true;
             }
         }
        

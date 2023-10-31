@@ -8,16 +8,7 @@ public class audioawake : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            // 如果实例已存在，则销毁新的实例
-            Destroy(gameObject);
-        }
+        
 
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();

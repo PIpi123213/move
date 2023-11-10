@@ -9,7 +9,7 @@ public class collision : MonoBehaviour
     public AudioClip collisionSound; // ÒôÐ§ÎÄ¼þ
     private AudioSource audioSource;
     
-    int a = 0;
+    
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -20,9 +20,9 @@ public class collision : MonoBehaviour
     {
         if (other.CompareTag("Ground"))
         {
-            
-       
-            if (soundeffect.isGround)
+            playermanager.isGround = true;
+
+            if (soundeffect.isFirst)
             {
                 audioSource.clip = collisionSound;
 
@@ -31,8 +31,8 @@ public class collision : MonoBehaviour
             }
             else
             {
-                Debug.Log("1");
-                soundeffect.isGround = true;
+                
+                soundeffect.isFirst = true;
             }
         }
        
@@ -42,11 +42,14 @@ public class collision : MonoBehaviour
     {
         if (other.CompareTag("Ground"))
         {
+            playermanager.isGround = false;
+
+
         }
+
+
     }
 
 
-
-
-}
+    }
 

@@ -5,5 +5,5 @@ using UnityEngine;
 public class soundeffect : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static bool isGround = false;
+    public static bool isFirst = false;
 }

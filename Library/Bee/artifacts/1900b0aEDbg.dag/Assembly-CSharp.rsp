@@ -357,6 +357,7 @@
 "Assets/GameManager.cs"
 "Assets/MonosingletonTemp.cs"
 "Assets/Move.cs"
+"Assets/playermanager.cs"
 "Assets/soundeffect.cs"
 "Assets/SoundManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

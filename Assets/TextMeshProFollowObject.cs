@@ -22,7 +22,12 @@ public class TextMeshProFollowObject : MonoBehaviour
             Vector3 screenPosition = Camera.main.WorldToScreenPoint(targetPosition);
 
             textElement.rectTransform.position = screenPosition;
-            textElement.text = "Number: " + GameManager.countScene.ToString();
+            //textElement.text = "Number: " + GameManager.countScene.ToString();
+            textElement.text = playermanager.A ;
+
+
+
+
         }
     }
 }

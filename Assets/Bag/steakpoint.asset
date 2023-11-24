@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac5057649a48d743ad774b36d025cf7, type: 3}
+  m_Name: steakpoint
+  m_EditorClassIdentifier: 
+  spawnPoint: {x: 2.5, y: 0.77, z: -1.3}
+  isPickedUp: 1
+  thisObject: {fileID: 6194004594186750178, guid: d5c42198a7947a04899cece0bf528305, type: 3}
+  initalPosition: {fileID: 3043080847680221574, guid: d50b2f372b47cc24887e5621b98fd4fc, type: 3}

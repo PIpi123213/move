@@ -19,8 +19,20 @@ public class playermanager : MonoBehaviour
         animator.SetBool("IsIdle", isGround);
 
         if (isGround)
+
         {
-            A = "IsIdle";
+
+            if (Input.GetKey((KeyCode.A) )|| Input.GetKey((KeyCode.D))|| Input.GetKey((KeyCode.W))|| Input.GetKey((KeyCode.S)))
+            {
+                A = "IsRooling";
+                
+            }
+
+            else
+            {
+                A = "IsIdle";
+            }
+            
 
 
         }
